@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio do Mauro</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!-- <div class="logo">
+            <img src="img/dev.png" alt="Logo">
+        </div> -->
+        <a href="index.html">En</a>
+        <button class="nav-toggle" aria-label="toggle-navigation">
+            <span class="hamburguer"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Oi, Eu me chamo <strong> Mauro Sérgio </strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            Cientista de Dados em Python | Full Stack Dev
+        </p>
+        <img src="img/dev-01.jpg" alt="A picture of me smiling" class="intro__img">
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">O que faço</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Programação Web</h3>
+                <p>
+                    Faço sites com HTML/CSS/Javascript, tanto landing pages quanto alguns sites
+                    Fullstack com Node e React. Minhas experiências são mais focadas em projetos pessoais
+                    e eventos como a semana OmniStack da Rocket Seat.
+                </p>
+            </div> <!-- / Service-->
+            <div class="service">
+                <h3>Inteligência Artificial</h3>
+                <p>
+                    Estudo Inteligência Artificial desde 2018 na universidade com inciação Científica,
+                    tendo trabalhado com Energia e Visão Computacional.
+                    Minha experiência é mais focada em artigos no <a href="" class="text-link">Lattes</a>
+                </p>
+            </div> <!-- / Service-->
+            
+            <div class="service">
+                <h3>Gamedev</h3>
+                <p>
+                    Também faço jogos, de vez em quando para diversão própria,
+                    testes de IA ou pra GameJams, a maioria fica no
+                    <a href="" class="text-link">Gamejolt</a> ou <a href="" class="text-link">Itch.io</a>
+                </p>
+            </div> <!-- / Service-->
+            
+        </div> <!-- / Services -->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Quem sou eu</h2>
+        <p class="section__subtitle section__subtitle--about">Eu sou um estudante de Engenharia Física que ama tecnologia e programação.</p>
+
+        <div class="about-me__body">
+            <p>
+                Tenho estudado tecnologia desde 2015 com um técnico em montagem em manutenção de computadores
+                , onde tive meu primeiro contato com lógica de programação.
+                Desde 2017, durante a universidade, tenho experiência com python, já tendo programado pra IoT
+                e Deep Learning principalmente.
+            </p>
+            <p>
+                Também já programei em C/C++, HTML/CSS/Javascript e node para sites fullstack.
+                Além disso já fiz jogos utilizando Engines como Gamemaker, Unity, Godot e Pygame.
+            </p>
+        </div>
+
+        <img src="img/dev-02.jpg" alt="Mauro em um ônibus" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <p>Ainda construindo essa parte</p>
+
+            <!-- Portfolio item 01 -->
+            <!-- <a href="#" class="portfolio__item">
+                <img src="img/portfolio-01.png" alt="" class="portfolio__img">
+            </a> -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:maurosergiostm@gmail.com" class="footer__link">maurosergiostm@gmail.com</a>
+        <ul class="social-list">
+            <!-- <li class="social-list__item">
+                <a class="social-list__link" href="instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li> -->
+
+            <!-- Falta Adicionar o Gamejol, Itch.io, Lattes etc... -->
+
+            <li class="social-list__item">
+                <a target="_blank" class="social-list__link" href="https://www.linkedin.com/mauro-moura">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a target="_blank" class="social-list__link" href="https://www.github.com/mauro-moura">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
